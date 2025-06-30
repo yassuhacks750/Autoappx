@@ -1,0 +1,30 @@
+{
+    "name": "Auto Uploader 『MASTER』BOT",
+    "description": "Download audios from various websites using this Telegram bot.",
+    "logo": "",
+    "keywords": [
+        "pyrogram",
+        "docker"
+    ],
+    "stack": "container",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot's token",
+            "value": "",
+            "required": true
+        },
+        "DB_NAME": {
+            "description": "Your database name",
+            "value": "",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}
