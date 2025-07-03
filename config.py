@@ -4,7 +4,7 @@ import os
 
 class Config(object):
     BOT_TOKEN = "7791069910:AAECoYiyaxfuYh8JIAsBxNAD0xRpYKTLoBw"
-    DB_NAME = ""
+    DB_NAME = "txtbot"
     API_ID = "22849789"
     API_HASH = "0fc127c6055acd59f00ec6c229e1e3c4"
     ADMIN_ID = "7296271316"
