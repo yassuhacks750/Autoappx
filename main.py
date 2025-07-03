@@ -4,6 +4,12 @@ import asyncio
 from logger import LOGGER
 from modules.retasks import recover_incomplete_batches
 from modules.scheduler import start_daily_schedulers
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Flask App running!"
 ##Code Written By @ItsMeMaster
 ##Code Written By @ItsMeMaster
 if __name__ == "__main__":
