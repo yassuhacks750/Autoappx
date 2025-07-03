@@ -18,7 +18,7 @@ async def help_msg(bot, m):
 
 @bot.on_message(filters.command("restart") & filters.private)
 async def restart_handler(_, m):
-    if m.chat.id != config.ADMIN_ID:
+    if m.chat.id != Config.ADMIN_ID:
         return await m.reply_text(
             "╭━━━━━━ ERROR ━━━━━━➣\n"
             "┣⪼ ⚠️ **Access Denied**\n"
