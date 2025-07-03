@@ -10,8 +10,6 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return "Flask App running!"
-##Code Written By @ItsMeMaster
-##Code Written By @ItsMeMaster
 if __name__ == "__main__":
     bot = Client(
         "Bot",
