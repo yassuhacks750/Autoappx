@@ -3,7 +3,7 @@ import os
 ##Code Written By @ItsMeMaster
 
 class Config(object):
-    BOT_TOKEN = "7791069910:AAECoYiyaxfuYh8JIAsBxNAD0xRpYKTLoBw"
+    BOT_TOKEN = "8434843795:AAFamCgCGaQXXvTDkJ4FWpHnu_Dv4MmKxxE"
     DB_NAME = "txtbot"
     API_ID = "22849789"
     API_HASH = "0fc127c6055acd59f00ec6c229e1e3c4"
@@ -12,3 +12,4 @@ class Config(object):
     LOG_CHANNEL = "-1002477114210" # Your Log Channel ID (Bot ko ADMIN BNAYE)
     USERLINK = ""
     TUTORIAL_VIDEO = ""
+
