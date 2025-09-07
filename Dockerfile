@@ -16,5 +16,6 @@ RUN chmod +x /usr/local/bin/appxdl
 RUN python3 -m venv /venv && \
     /venv/bin/pip install -r master.txt
 ENV PATH="/usr/local/bin:/venv/bin:$PATH"
-CMD gunicorn main:app --bind 8.0.0.0:$PORT & python3 main.py
+CMD gunicorn main:app --bind 0.0.0.0:$PORT & python3 main.py
+
 
