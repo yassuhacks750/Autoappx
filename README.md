@@ -1,6 +1,6 @@
 ## Deploy To Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/nihubora264/appx-auto-4)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/yassuhacks750/Autoappx)
 
 ## Code Write By @ItsMeMaster
 
@@ -165,3 +165,4 @@ For support, please join our [ᎷΔŞŦᏋᏒ](https://t.me/ItsMeMaster)
 
 ---
 Made with ❤️ by [ᎷΔŞŦᏋᏒ] 
+
